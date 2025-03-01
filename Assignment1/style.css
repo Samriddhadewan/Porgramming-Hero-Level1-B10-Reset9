@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+
+}
+header{
+    margin-top: 20px;
+}
+.nav-bar{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-size: 28px;
+
+}
+.resume{
+    color: #0D1321;
+    border: 1px solid #0D1321;
+    border-radius: 9px;
+    padding: 10px 7px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* banner sections styles here  */
+.banner-section{
+    margin-top: 30px;
+    height: 70vh;
+    background-image: url("./assets/Hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-contents{
+    padding-top: 20px ;
+    text-align: center;
+    height: 100%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-heading{
+    color: #0D1321;
+    font-size: 48px;
+    font-weight: 800;
+}
+.banner-p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align:  #808080;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.banner-btn{
+    color: white;
+    background: #0D1321;
+    padding: 18px 23px;
+    font-family: "Azeret Mono", monospace;
+    border-radius: 10px;
+}
+/* main section styles here  */
+main{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.why-web{
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 74px;
+    padding-top: 80px;
+    border-radius: 16px;
+}
+.why-text{
+    text-align: center;
+}
+.text-primary{
+    font-size: 32px;
+    font-weight: 800;
+}
+.box{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    border-radius: 8px;
+}
+.layer-1{
+    width: 50%;
+}
+.layer-{
+    width: 50%;
+}
+.layer-primary{
+    color: rgba(13, 19, 33, 0.70);
+    font-weight: 700;
+    font-size: 24px;
+}
+.layer-secondary{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.layer-btn{
+    padding: 12px 20px;
+    border-color: rgba(13, 19, 33, 0.70);
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    font-family: "Azeret Mono", monospace;
+    background-color: white;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.bg-reverse{
+    background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+/* my insparation styles starts here  */
+.my-insparation{
+    text-align: center;
+    margin-top: 100px;
+}
+.yt-video{
+    padding: 18px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    border-radius: 16px;
+    margin-top: 48px;
+}
+.player{
+    width: 100%;
+    height: 550px;
+    border-radius: 15px;
+}
+/* my current target styles here  */
+.my-current-target{
+    margin-top: 112px;
+}
+.current-boxs{
+    margin-top: 48px;
+    display: flex;
+    gap: 20px;
+}
+.current-box{
+    width: 364px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+.bg-sky{
+    background: rgba(0, 76, 232, 0.05);
+}
+.bg-vanilla{
+    background: rgba(255, 223, 0, 0.05);
+}
+.margin-top-12{
+    margin-top: 15px;
+}
+/* my next target styles here  */
+.my-next-target{
+    margin-top: 111px;
+}
+.text-center{
+    text-align: center;
+}
+.skill-box{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    display: flex;
+    gap: 24px;
+    border-radius: 16px;
+    padding: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.skill-primary{
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+}
+.fluid-img{
+    width: 95px;
+    height: 107px;
+    object-fit: contain;
+    
+}
+.skill-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    
+}
+.learn-more{
+    text-decoration: underline;
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: 700;
+}
+/* i need help section starts here  */
+.i-need-help{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+    background-image: url("./assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+.need-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.support-primary{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.support-p{
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.search{
+    border: none;
+    border-radius: 8px;
+    width: 548px ;
+    height: 40px;
+    font-family: "Azeret Mono";
+    padding-left: 10px;
+}
+.submit{
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    font-family: "Azeret Mono";
+}
+/* footer section styles here  */
+footer{
+    margin-top: 80px;
+    background: rgba(13, 19, 33, 0.03);
+
+}
+.footer-content{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    
+}
+.footer-content > p{
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+
+}
